@@ -1,0 +1,17 @@
+### GET request to exaample local server
+    GET http://localhost:8080/
+    Accept: application/json
+
+### Get software engineers
+GET http://localhost:8080/api/v1/software-engineers
+Accept: application/json
+
+
+### POST software engineers
+POST http://localhost:8080/api/v1/software-engineers
+Content-Type: : application/json
+
+{
+    "name": "John Doe",
+    "techStack": "Java, Spring Boot, Docker"
+}
